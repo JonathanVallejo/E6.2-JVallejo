@@ -3,14 +3,15 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/css.css" media="screen">
-    <title>Estructura de un elemento HTML</title>
+      <title>Estructura de un elemento HTML</title>
   </head>
   <body>
+    <h1>Estructura HTML</h1>
     <div class="contenedor">
       <div class="recuadroarriba">
-        <div class="contenidodentro">
+        <div class="contenidodentroarriba">
       <h2>Estructura de un elemento HTML</h2>
-        <p> La estructura css se compone de los siguientes parámetros: Margin, Border, Padding Content Area (este a su vez consta de un width y un height).  </p>
+        <p> La estructura html se compone de los siguientes parámetros: Margin, Border, Padding Content Area (este a su vez consta de un width y un height).  </p>
         <p>Los carácteres o texto que escribimos son el Content Area o Area de Contenido, podemos modificar el ancho y el alto de este con los parámetros width y height respectivamente.</p>
         <p>Despúes tenemos el padding que es el espaciado que rodea el Content Area, con este parámetro podemos definir el espaciado entre el area de contenido y el borde de forma simultanea (los 4 lados a la vez, sin necesidad de poner los 4 parámetros: top =arriba ; bottom = abajo ; left = izquierda ; right = derecha). </p>
         <p>El border es la linea que sirve para separar el padding del margin.</p>
@@ -23,16 +24,44 @@
       </div>
 
       <div class="recuadroabajo">
-        <div class="contenidodentro">
+        <div class="contenidodentroabajo">
           <h2>Estructura de un elemento HTML en Internet explorer</h2>
           <p>En Internet explorer anteriores a la version 11, la única diferencia con el resto de navegadores es que el width no ocupa solo el ancho del Area de contenido sino que coje hasta el border, por lo tanto se nos desfiguraria la página y no se nos veria correctamente.</p>
-          <p>A la izquierda podeis verlo de forma gráfica con un ejemplo.</p>
+          <p>A la derecha podeis verlo de forma gráfica con un ejemplo.</p>
         </div>
           <div class="imagen">
             <img src="img/explorer11.png" height="450" width="400"/>
           </div>
       </div>
     </div>
-    
+    <h1 id="PropiedadesCSS">Propiedades CSS</h1>
+        <h3>Width</h3>
+          <p class="textopropiedadescss">La propiedad width establece el ancho de un elemento. <br />
+          <b>Nota:</b> La propiedad width no incluye el relleno, bordes o márgenes; que establece el ancho de la zona interior del relleno, borde y margen del elemento!</p>
+        <h3>Max-width</h3>
+          <p class="textopropiedadescss">La propiedad-max anchura se utiliza para establecer la anchura máxima de un elemento.<br />
+          <b>Nota:</b> El valor de la modificaciones de propiedades-max ancho de ancho. </p>
+        <h3>Height</h3>
+          <p class="textopropiedadescss">La propiedad height establece la altura de un elemento. <br />
+          <b>Nota:</b> La propiedad altura no incluye el relleno, bordes o márgenes; que define la altura de la zona interior del relleno, borde y margen del elemento!</p>
+        <h3>Max-height</h3>
+          <p class="textopropiedadescss">La propiedad max-height se utiliza para ajustar la altura máxima de un elemento.<br />
+            Esto evita que el valor de la propiedad height de convertirse en más grande que max-height.<br />
+          <b>Nota:</b> El valor de la propiedad max-height anula altura. </p>
+        <h3>Display</h3>
+          <p class="textopropiedadescss">La propiedad display especifica el tipo de caja utilizada para un elemento HTML.</p>
+        <h3>Overflow</h3>
+          <p class="textopropiedadescss">La propiedad overflow especifica qué ocurre si el contenido desborda la caja de un elemento.</p>
+        <h3>Z-index</h3>
+          <p class="textopropiedadescss">La propiedad z-index especifica el orden de apilamiento de un elemento. <br />
+          Un elemento con mayor orden de apilamiento es siempre frente a un elemento con una orden de pila baja.<br />
+          <b>Nota:</b> z-index sólo funciona en elementos posicionados (posición: absoluta, position: relative o position: fixed).</p>
+        <h3>Line-height</h3>
+          <p class="textopropiedadescss">La propiedad line-height especifica la altura de la línea.<br />
+          <b>Nota:</b> Los valores negativos no están permitidos.</p>
+        <h3>Box-sizing</h3>
+          <p class="textopropiedadescss">La propiedad box-dimensionamiento se usa para decirle al navegador lo que las propiedades de tamaño (anchura y altura) deben incluir.<br />
+          Deben incluir la caja de frontera? O simplemente la caja de contenidos (que es el valor por defecto de las propiedades de anchura y altura)?</p>
   </body>
+    <footer>Jonathan Vallejo</footer>
 </html>

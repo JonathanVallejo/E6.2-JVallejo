@@ -1,0 +1,88 @@
+header {
+ margin-top: 10px;
+ width: 100%;
+ height: 150px;
+ overflow: hidden;
+ position: relative;
+}
+
+nav{
+  top: -20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 20px auto;
+  max-width: 1000px;
+  width: 90%;
+}
+
+nav ul{
+list-style: none;
+}
+
+nav > ul{
+  display: table;
+  width: 100%;
+  background: #000;
+  position: relative;
+}
+
+nav > ul li {
+  display: table-cell;
+}
+
+nav > ul li a{
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  line-height: 20px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  background: ;
+  font-size:
+}
+
+img {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+
+h2 {
+    margin-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    color: #2E9AFE;
+  }
+
+p{
+    text-align: left;
+    font-size: 16;
+    margin-left: 40px;
+    color: #000;
+  }
+  .contenedorizquierda{
+      float: left;
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0 20px;
+      text-align: justify;
+      width: 50%;
+      color: #000;
+  }
+  .contenedor{
+    overflow: hidden;
+  }
+  .anuncios{
+    float: right;
+    width: 40%;
+  }
+  img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
